@@ -1,6 +1,6 @@
 {
   "name": "@z-helper/fcm-v1",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "FCM V1 helper library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,6 +28,7 @@
     "android",
     "ios"
   ],
+  "repository": "https://github.com/zabih-dev/z-helper-js/tree/master/packages/fcm-v1",
   "author": "https://www.youtube.com/@zabih-dev",
   "license": "MIT",
   "engines": {

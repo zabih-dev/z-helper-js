@@ -21,5 +21,5 @@ import * as keys from '../firebase-adminsdk.json';
         notification: { title: 'Test Notification', body: 'Hi there' },
       },
     },
-  });
+  }).then(() => console.log('Sent successfully'));
 })();

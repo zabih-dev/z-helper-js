@@ -1,0 +1,46 @@
+{
+  "name": "z-helper",
+  "version": "0.1.1",
+  "description": "FCM V1 helper library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "!dist/**/*.map"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "sample:token": "ts-node ./samples/1-get-access-token",
+    "sample:msg": "ts-node ./samples/2-send-message-to-device"
+  },
+  "keywords": [
+    "fcm",
+    "fcm v1",
+    "gcm",
+    "push",
+    "notification",
+    "push notification",
+    "firebase",
+    "firebase cloud messaging",
+    "google",
+    "android",
+    "ios"
+  ],
+  "author": "https://www.youtube.com/@zabih-dev",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

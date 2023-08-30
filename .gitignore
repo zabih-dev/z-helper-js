@@ -1,0 +1,35 @@
+# build folder
+dist/
+
+# dependencies
+node_modules/
+
+#
+package-lock.json
+yarn.lock
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+/.devcontainer
+*.code-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# misc
+.DS_Store
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+/**/npm-debug.log
+/packages/**/LICENSE
+*.tsbuildinfo
+
+.npmrc
+pnpm-lock.yaml
